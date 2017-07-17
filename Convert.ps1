@@ -3,13 +3,13 @@ Write-Host "Music File converter"
 
 #Set the path to crawl
 # Cambiar el directorio a convertir
-$path = 'F:\MusicaMiri'
+$path = '' #put your directory here like C:\XXXXX
 
 Write-Host "Directory: $path" 
 
 #The source or input file format
 #Tipo de archivo a convertir del directorio seleccionado
-$from = '.ogg'
+$from = '.ogg' #mp4a, mp4, ogg... Music File type
 
 Write-Host "Filetype: $from"
 
